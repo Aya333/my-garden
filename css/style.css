@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+header {
+background-color: #3f8f8d;
+height: 70px;
+
+}
+#Hparagraph{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+main{
+    width: 100%;
+    display: inline-block;
+}
+
+.Form-div , .Table-div{
+    width: 50%;
+    background-color: white;
+    float: left;
+    margin:auto;
+    padding:20px;
+}
+.Table-div{
+    float: right;
+    padding:20px;
+}
+.Form-div{
+    padding-left:20px ;
+    border-style: solid black;
+    border-width: 5px;
+
+}
+
+.Form-div #submit {
+background-color: #609c4d;
+}
+table{
+    margin:auto;
+    border-style: hidden;
+    border-radius: 2%;
+}
+
+
+th{
+
+   background-color:#f6b8d1 ;
+   margin: 5%;
+   padding: 20px;
+}
+td{  
+    background-color: #ffd3de;
+    margin: 5%;
+    padding: 20px;
+}
+
+
+
+
+
+footer{
+    background-color: #5dc0a6;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    height: auto;
+    height: 50px;
+    padding-top: 2%;
+}
